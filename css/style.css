@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background:linear-gradient(green, black ,orange) , url(../wal.jpg);
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:lighten ;
+}
+
+.container{
+    height: 100vh;
+    
+   
+   /* background-color: black; */
+   /* opacity: 40%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 2s;
+    max-width: 20vw;
+    
+
+    
+}
+
+
+
+.animal{
+    opacity: 100%;
+  border: 4px solid gray;
+  width: 221px;
+  height: 215px;
+  margin: 40px 10px 20px 40px;
+    border-radius: 30%;
+}
+.playing{
+    transform: scale(1.2);
+    border: 4px solid red;
+    
+}
+
+#dog{
+    background: url(../img/dog.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#bird{
+    background: url(../img/bird.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#cat{
+    background: url(../img/cat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#bee{
+    background: url(../img/bee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#lion{
+    background: url(../img/lion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-color{
+    background-color: darkcyan;
+    text-align: center;
+    position: relative;
+   
+  
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.text{
+    background-color: black;
+    border: 2px solid red;
+    color: white;
+    width: 90px;
+    height: 30px;
+    padding: 4px;
+    text-align: center;
+    border-radius: 30px;
+    margin: 10px 0px;
+    
+
+}
+.text:hover{
+    cursor: pointer;
+    background-color: grey;
+    transform: scale(1.1);
+    border: 4px solid green;
+}
+.c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
